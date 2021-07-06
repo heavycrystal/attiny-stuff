@@ -1,6 +1,6 @@
 # attiny-stuff
 
-This is my repository of C code written for the DigiSpark development board.
+This is my repository of C code written for the DigiSpark development board, that contains an ATTiny85 microcontroller.
 
 It's highly disorganized and written primarily from an experimental point of view. Capabilities tested so far:
 
@@ -9,3 +9,4 @@ It's highly disorganized and written primarily from an experimental point of vie
 3. PWM signals to drive a passive buzzer.
 4. Incorporating the V-USB library for communication with a host device over USB/1.1.
 5. Timer, pin change and general interrupts.
+6. Combining several of these capabilities to create a SHA256 "accelerator" that communicates using V-USB and generates the hash of an arbitarily long file.
